@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+    <title>Stop skipping class...</title>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script src = "tuitioncalc.js"></script>
+</head>
+
+<body>
+    <div class = "background">
+        <nav>
+            <div class = "header">
+                <h1>How much tuition will you waste by skipping class today?</h1>
+            </div>
+        </nav>
+
+        <header>
+            <div class = "tuitiontrashed">
+                <p>How many credit hours is the class you're skipping?</p>
+                <input id = "hours" type = "number" placeholder = "Ex. 1, 3, 5">
+                <p>How many times a week does the class you're skipping meet?</p>
+                <input id = "freq" type = "number" placeholder = "Ex. 1, 2">
+                <p>What's the tuition rate at your university?</p>
+                <input id = "rate" type = "number" placeholder = "USD / credit hour">
+                <h3 id = "tuitionwasted"></h3>
+                <a href = "#" onclick = "calc()">Calculate</a>
+            </div>
+        </header>
+    </div>
+
+
+</body>
